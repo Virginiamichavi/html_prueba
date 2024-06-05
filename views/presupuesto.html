@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMA Taller Chapa y Pintura</title>
+    <!--FAVICON LOGOTIPO Presupuesto-->
+    <link rel="icon" href="../favicon.png" type="image/x-icon">
+    <!--CSS Presupuesto-->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <!--Cabecera Presupuesto-->
+    <header>
+        <img class="logo" src="../assets/images/logotipo/logo.png" alt="logo">
+        <h1>VMA Taller Chapa y Pintura</h1>   
+    </header>
+     <!--Barra de Navegacion Presupuesto-->
+     <nav>
+        <ul class="navigation">
+            <li><a class="enlace" href="../index.html">Inicio</a></li>
+            <li><a class="enlace" href="../views/productos.html">Productos</a></li>
+            <li><a class="enlace active" href="#">Presupuesto</a></li>
+            <li><a class="enlace" href="../views/contacto.html">Contacto</a></li>
+        </ul>
+        <form>
+            <input type="search" placeholder="buscar">
+            <input class="negro" type="submit" value="Buscar">
+        </form>
+    </nav>
+    <!--Principal Presupuesto-->
+    <main>
+    
+    <!--Seccion Presupuesto--> 
+       <section class="formulario">
+        <h2>Presupuesto</h2>
+    <!--Creacion Formulario Presupuesto-->
+        <div>
+            <h3>Solicite su presupuesto</h3>
+            <form method="post" action="taller.php">
+                <ul class="exterior">
+                    <li>                
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required>
+                    </li>
+                    <li>                
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Escriba sus apellidos" required>
+                    </li>
+                    <li>                
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Escriba su correo eletronico" required>
+                    </li>
+                    <li>                
+                        <label for="telefono">Telefono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Numero de telefono o mobil" required>
+                    </li>
+                    <li>                
+                        <label for="informacion">Solicitar informacion</label>
+                        <textarea id="informacion" name="informacio" placeholder="Solicitar informacion"></textarea>
+                    </li>
+                    <li>
+                        <p>Politica de privacidad</p>
+                        <ul class="interior">
+                            <li>
+                                <input type="checkbox" id="aceptar" name="privacidad" required>
+                                <label for="aceptar">He leido y acepto la poitica de privacidad</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Borrar</button>
+                    </li>         
+                                           
+                </ul>
+                </form>
+               </div>       
+       </section> 
+       <!--Barra Lateral Presupuesto-->
+    <aside>
+        <h2>Coche de Substituicion</h2>
+           <img class="foto" src="../assets/images/taller/mercedes.jpeg" alt="mercedes">
+           <p>Mientras reparemos su coche, tienes derecho a un coche de substituicion</p>          
+           <h3>Nuestros horarios</h3>
+           <p>Lunes a Viernes de 9:00h hasta 19:00h</p>       
+          <img class="foto" src="../assets/images/taller/bmw.jpeg" alt="bmw">
+          <img class="foto" src="../assets/images/taller/ford.jpeg" alt="ford">
+          <img class="foto" src="../assets/images/taller/jaguar.jpeg" alt="jaguar">
+          <img class="foto" src="../assets/images/taller/audi.jpeg" alt="audi">         
+   
+    </aside>  
+      
+    </main>
+    <!--Pie de Pagina Rss Presupuesto-->
+    <footer>
+        <img class="logo" src="../assets/images/logotipo/logo.png" alt="logo">         
+        <div>
+            <h2>Nuestra direccion</h2>  
+            <p>Avinguda Joan,0 Encamp AD200 </p>
+            <p>Tel:5555-5555</p>                   
+            <h3>Nuestras Redes sociales</h3>
+            <a href="https://www.instagram.com/">
+            <img class="rss" src="../assets/images/logosrss/instagram.png" alt="instagram"></a>   
+            <a href="https://es-la.facebook.com/">
+            <img class="rss" src="../assets/images/logosrss/facebook.png" alt="facebook"></a>   
+             
+            <p>Aviso Legal</p>
+        </div> 
+        <img class="logo" src="../assets/images/logotipo/logo.png" alt="logo">                             
+    </footer>
+    
+    
+</body>
+</html>

@@ -1,0 +1,308 @@
+/***************************************************************************************************************
+*************************************************ESTILOS GENERALES**********************************************
+****************************************************************************************************************/
+
+*{
+    margin:0 auto;    
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Tahoma, sans-serif;   
+    background-image: linear-gradient(black, rgb(56, 92, 83), black);
+}
+/**************************************************HEADER**************************************************/  
+header{
+    width: 1250px;
+    margin:0 auto;
+    background-color:rgb(50, 47, 47);
+    padding: 15px;
+    color:white;
+    display: flex;    
+}
+.logo{
+    width: 150px;
+    height: 150px;    
+}
+h1{
+    margin-left: 2%;
+    font-size: 50px;
+    padding:50px;       
+}
+/****************************************BARRA DE NAVEGACION**************************************************/
+nav{
+    width: 1250px;
+    margin: 0 auto;
+    background-color:darkslategrey;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    box-shadow: 2px -5px 6px black; 
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul a{
+    background-color:darkslategrey;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    box-shadow: 2px 5px 6px black;
+    justify-content: space-around;
+}
+nav ul a:hover{
+    background-color: black;    
+    color:white;
+    transition: 1s;    
+    font-weight: bold;
+
+}
+nav>form>input{
+    width: 150px;
+    height: 30px;
+    color:white;
+}
+.active{
+    background-color: white;
+    color:black;
+    font-weight: bold;
+}
+.negro{
+    background-color: black;
+    cursor: pointer;
+}
+.negro:hover{
+    background-color:black;
+    font-weight: bold;
+    transition: 1s;
+}
+
+/***********************************************************************************************************************
+**********************************************ESTILOS GENERALES MAIN SECTION ARTICLE Y ASIDE****************************************************
+************************************************************************************************************************/
+.foto1{
+    width: 350px;
+    height: 250px;    
+    box-shadow: 2px -5px 6px black;
+    gap: 20px;
+}
+main{
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-items: center;   
+   
+}
+/***************************************ESTILOS GENERALES SECTION***************************************************/
+main section{
+    background-image: linear-gradient( rgb(50, 47, 47), rgb(7, 7, 7), rgb(50, 47, 47));
+    width: 1250px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;   
+} 
+
+main > section > h2{
+    font-size: 40px;
+    color:white;
+}
+/**********************************ESTILOS GENERALES INDEX SECTION ARTICLE**********************************/
+main section article{
+    width: 250%;
+    margin:25px;
+    padding:25px;
+    background-color:darkslategray;
+    align-items: center;
+    text-align: center;
+    color:white; 
+    box-shadow: 2px -5px 6px black; 
+}
+article > h3{
+    text-align: center;
+    font-weight:bold;
+    font-size: 30px;
+    color:rgb(233, 223, 223);
+    padding:15px 20px; 
+    text-shadow: 1px 5px black;   
+}
+
+.reseña{
+    width: 90px;
+    height: 90px;
+    clip-path:circle(50%);
+    margin-left: 10px;
+    text-shadow: 1px 2px 2px black;   
+}
+.reseña1, .reseña, .opinion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center; 
+}
+article > p{
+    text-align:center;
+}
+/*********************************************ESTILOS GENERALES BARRA LATERAL************************************/
+main > aside {
+    background-color:black;
+    width: 40%;
+    padding:50px;
+    color:white;
+    text-align: center;
+    gap:2rem;   
+    border: 0;
+    gap: 15px 
+}
+
+.foto{
+    width: 220px;
+    height: 130px; 
+    border-radius: 12px;
+    margin-bottom: 15px 20px;
+}
+
+/******************************************ESTILOS GENERALES FOOTER**********************************************/
+footer{
+    background-image: linear-gradient(darkslategrey, black);
+    width: 1250px;
+    color:white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+} 
+
+.rss{
+    width: 60px;
+    height: 60px;
+    
+}
+/**************************************************************************************************************
+********************************************ESTILOS PRODUCTOS GALERIA DE FOTOS*********************************
+***************************************************************************************************************/
+h2{
+    font-size: 30px;
+}
+.trabajos, .trabajos1 > h2 > p{
+    display: flex;
+    color:white;
+    flex-wrap: wrap;
+    padding: 5px 20px;
+    margin:0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;   
+
+}
+
+.trabajos, .trabajos1 p{
+    text-align: center;
+    padding: 20px 15px;
+    align-content: center;
+    text-transform: uppercase;
+}   
+.coche{
+    width: 200px;
+    height: 150px;
+    box-shadow: 5px -2px 3px darkslategrey;
+    padding: 5px;  
+    border-radius: 10px;  
+}    
+
+/***************************************************************************************************************
+**************************************************ESTILOS PRESUPUESTO FORMULARIO********************************
+****************************************************************************************************************/
+
+section, .formulario >div{ 
+    margin:0 auto;
+    max-width: 1250px;
+   align-content: start;
+   padding: 15px 20px;
+   gap: 10px;
+   text-align: center;
+   justify-content: center;   
+    color:white;      
+}
+
+div>h3{
+    margin-top: 5px 20px;
+    padding: 30px 20px;
+}
+
+.exterior{
+    list-style-type: none;
+    text-align: left;
+}
+.exterior{
+   max-width: 800px;
+   margin: 0 auto;
+}
+.exterior li, .interior{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+.exterior li label, 
+.exterior p{
+    padding:10px;
+    text-transform: uppercase;    
+}
+.exterior > li > label,
+.exterior > li > p{
+    flex: 1 0 120px ;
+    max-width: 220px;
+}
+.interior{
+    padding: 0 8px;
+    justify-content: space-between;
+}
+.exterior > li:not(:last-child){
+    margin-bottom: 20px;    
+}
+
+.exterior > li > label + *, 
+.interior{
+    flex: 1 0 220px;
+}
+.exterior li input, 
+.exterior li textarea{
+    padding:20px;
+    border:none;
+}
+.exterior li button{
+    margin-left: auto;
+    padding: 20px 20px;
+    border:none;
+    background-color: black;
+    color:white;
+    text-transform: uppercase;
+    box-shadow: 1px -2px 5px rgb(129, 122, 122);
+    cursor:pointer;   
+}
+.exterior li button:hover{
+    background-color: black;    
+    color:whitesmoke;
+    transition: 1s;   
+    font-weight: bold;
+}
+
+/*******************************************************************************************************************
+*********************************************************ESTILOS CONTACTO*******************************************
+********************************************************************************************************************/
+ main > .contacto > h2 > div > iframe{ 
+    padding: 15px 20px;
+    align-items: center;  
+}
+
+iframe{   
+    padding: 5px;
+    border-radius: 10px;    
+}
+/***********************************************************************************************************************
+***********************************************************FIN**********************************************************
+************************************************************************************************************************/
